@@ -17,9 +17,7 @@
 
 This project uses **[Poetry](https://python-poetry.org/)** for dependency management.
 
-### 1. Install Poetry
+pylint for code checking
+black for style checking
+pdoc for generating docs
 
-If you don’t have Poetry yet:
-```bash
-curl -sSL https://install.python-poetry.org | python3 -
-```
