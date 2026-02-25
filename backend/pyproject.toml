@@ -1,0 +1,27 @@
+[tool.poetry]
+name = "ai-stock-analyst-backend"
+version = "0.1.0"
+description = "Flask backend for AI-powered stock analytics"
+authors = ["AI Stock Analyst Team"]
+readme = "README.md"
+package-mode = false
+
+[tool.poetry.dependencies]
+python = "^3.11"
+flask = "^3.1.2"
+flask-cors = "^6.0.1"
+sqlalchemy = "^2.0.38"
+psycopg = { extras = ["binary"], version = "^3.2.9" }
+python-dotenv = "^1.0.1"
+alembic = "^1.14.1"
+openai = "^1.68.2"
+requests = "^2.32.3"
+pydantic = "^2.10.6"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.3.5"
+pytest-cov = "^6.0.0"
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
