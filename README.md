@@ -2,15 +2,6 @@
 
 AI-powered stock analytics platform with a Flask backend, PostgreSQL datastore, React dashboard, and grounded AI assistant.
 
-## Milestone Status
-
-- [x] Milestone 0 - Repository scaffolding
-- [ ] Milestone 1 - Database + ingestion
-- [ ] Milestone 2 - REST API
-- [ ] Milestone 3 - Frontend dashboard
-- [ ] Milestone 4 - AI analytics assistant
-- [ ] Milestone 5 - Polish
-
 ## Architecture (Target)
 
 ```text
